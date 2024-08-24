@@ -6,7 +6,7 @@ function getFormResponse() {
   //取得表單回覆內容
   var formResponse = form.getResponses();   
   //處理表單上問答內容
-  for(var i = 0; i < formResponse.length ; i++){
+  for(var i=0;i<formResponse.length;i++){
     //取得表單上的項目
     var itemResponses = formResponse[i].getItemResponses();
     //取得表單上「收集電子郵件地址」
@@ -15,7 +15,7 @@ function getFormResponse() {
     //傳送訊息設定
     var itemContext = formTitle + "\n 填報者電子郵件 : " + itemRespondentEmail + "\n";
     //將表單每一項問答組成訊息
-    for(var j = 0; j < itemResponses.length ; j++){
+    for(var j=0;j<itemResponses.length;j++){
       //取得問題標題
       itemContext += itemResponses[j].getItem().getTitle();    
       //取得問題回覆內容
