@@ -8,4 +8,5 @@
 
 ## 每日天氣預報通知
 參閱[WeatherAutoNotify.gs](https://github.com/hksu-chsh/GAS-LINE_Notify/blob/main/WeatherAutoNotify.gs)
+
 [氣象資料開放平台](https://opendata.cwa.gov.tw/index)
